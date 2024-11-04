@@ -1,0 +1,746 @@
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+body {
+    background-color: seashell;
+  }
+p {
+    float: center;
+    text-align-last: center;
+    margin: auto;
+}
+
+body, html{
+    background-color: #FFFAFA;
+    font: Arial;
+    text-align: center;
+    text-align-last: center;
+    
+}
+
+img{
+    width: 50%;
+    border: 5px;
+    src: url(truffle%20risotto%201.jpg)
+    
+}
+img{
+    width: 50%;
+    src: url(wild%20Mushroom%20Tagliatelle%201.jpg)
+}
+img {
+  border: 4px solid #555;
+}
+
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Merriweather', sans-serif;
+  color: #384047;
+}
+.info{
+    border-style: solid;
+    border-radius: 4px;
+    width: 30%;
+    height: 35px;
+    text-align: center;
+        
+}
+.infos{
+    border-bottom: solid;
+    font-family: monospace
+}
+.welcome{
+    font-family: monospace
+}
+.article{
+    border-bottom: solid;
+    font-family: monospace
+}
+.text{
+    border-bottom: solid;
+    font-family: monospace
+}
+.connection{
+    border-bottom: solid;
+    font-family: monospace
+}
+.perfect{
+    font-family: monospace
+}
+.location1{
+    font-family: serif
+}
+.reservation1{
+    font-family: serif
+}
+.reservation2{
+    font-family: serif
+}
+.location{
+     color: white;
+  text-shadow: 2px 2px 4px 	#000000;
+}
+.reservation{
+     color: white;
+  text-shadow: 2px 2px 4px 	#000000;
+}
+.amuse-bouche{
+    border-bottom: solid;
+    text-shadow: 1px 1px #A9A9A9;
+}
+.textshadow1{
+    color: black;
+    text-shadow: 2px 2px #FF1493;
+}
+.starter{
+    border-bottom: solid;
+     text-shadow: 1px 1px #A9A9A9;
+}
+.textshadow2{
+    color: black;
+    text-shadow: 2px 2px #FF1493; 
+}
+.fishcourse{
+    border-bottom: solid;
+     text-shadow: 1px 1px #A9A9A9;
+}
+.textshadow3{
+     color: black;
+    text-shadow: 2px 2px #FF1493;
+}
+.maincourse{
+    border-bottom: solid;
+     text-shadow: 1px 1px #A9A9A9;
+}
+.textshadow4{
+     color: black;
+    text-shadow: 2px 2px #FF1493;
+}
+.predessert{
+    border-bottom: solid;
+     text-shadow: 1px 1px #A9A9A9;
+}
+.textshadow5{
+     color: black;
+    text-shadow: 2px 2px #FF1493;
+}
+.textshadow6{
+     color: black;
+    text-shadow: 2px 2px #FF1493;
+}
+
+.price1{
+    text-shadow: 1px 1px #A9A9A9;
+}
+.price2{
+    text-shadow: 1px 1px #A9A9A9;
+}
+.price3{
+    text-shadow: 1px 1px #A9A9A9;
+}
+.price4{
+    text-shadow: 1px 1px #A9A9A9;
+}
+.price5{
+    text-shadow: 1px 1px #A9A9A9;
+}
+.price6{
+    text-shadow: 1px 1px #A9A9A9;
+}
+.price7{
+    text-shadow: 1px 1px #A9A9A9;
+}
+.price8{
+    text-shadow: 1px 1px #A9A9A9;
+}
+form {
+  max-width: 300px;
+  margin: 10px auto;
+  padding: 10px 20px;
+  // background: #000000;
+  background: rgba(255,255,255,0.8);
+  border-radius: 8px;
+}
+
+h1 {
+  margin: 0 0 30px 0;
+  text-align: center;
+    background-color: black;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="date"],
+input[type="datetime"],
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="tel"],
+input[type="time"],
+input[type="url"],
+textarea,
+select {
+  background: rgba(255,255,255,0.1);
+  border: none;
+  font-size: 16px;
+  height: auto;
+  margin: 0;
+  outline: 0;
+  padding: 15px;
+  width: 100%;
+  background-color: #e8eeef;
+  color: #8a97a0;
+  box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+  margin-bottom: 30px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  margin: 0 4px 8px 0;
+}
+
+select {
+  padding: 6px;
+  height: 32px;
+  border-radius: 2px;
+}
+
+button {
+  padding: 19px 39px 18px 39px;
+  color: #FFF;
+  background-color: #000000;
+  font-size: 18px;
+  text-align: center;
+  font-style: normal;
+  border-radius: 5px;
+  width: 100%;
+  border: 1px solid #3ac162;
+  border-width: 1px 1px 3px;
+  box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
+  margin-bottom: 10px;
+}
+
+fieldset {
+  margin-bottom: 30px;
+  border: none;
+}
+
+legend {
+  font-size: 1.4em;
+  margin-bottom: 10px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+label.light {
+  font-weight: 300;
+  display: inline;
+}
+
+.number {
+  background-color:#000000;
+  color: #fff;
+  height: 30px;
+  width: 30px;
+  display: inline-block;
+  font-size: 0.8em;
+  margin-right: 4px;
+  line-height: 30px;
+  text-align: center;
+  text-shadow: 0 1px 0 rgba(255,255,255,0.2);
+  border-radius: 100%;
+}
+
+@media screen and (min-width: 480px) {
+
+  form {
+    max-width: 480px;
+  }
+
+}
+
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+
+main {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+
+
+nav {
+
+  height: 50px;
+  width: 100%;
+  padding: 2px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 30px;
+  background-color: rgb(236, 232, 232);
+    margin-bottom: auto;
+
+}
+
+
+nav a {
+  text-decoration: none;
+
+
+}
+
+
+nav a:hover {
+  transition: all ease 0.5s;
+}
+
+
+
+@media only screen and (max-width: 700px) {
+  main {
+    background-color:#000000;
+  }
+  nav {
+    width: 90%;
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+    main {
+      background-color:#000000;
+    }
+    nav {
+      width: 90%;
+      font-size: 16px;
+    }
+  }
+
+@import "https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap";
+
+:root {
+  --color: rgb(63 63 63);
+}
+
+body {
+  margin: 0;
+  font-family: Poppins, sans-serif;
+}
+
+.parallax-container {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+
+  background-attachment: fixed;
+
+  background-image: url(CALI-MICHELIN-STAR-RESTAURANTS-SELBYS.jpg);
+  background-position: center;
+  background-size: cover;
+  color: var(--color);
+  row-gap: 4rem;
+
+  text-align: center;
+}
+
+.buffer {
+  width: 100%;
+  min-height: 60vh;
+  background-color: var(--color);
+}
+
+.parallax-container2 {
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  padding: 6rem 0;
+  background-image: url(CALI-MICHELIN-STAR-RESTAURANTS-SELBYS.jpg);
+  gap: 1.6em;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: 700;
+    color: aliceblue;
+}
+
+p {
+  max-width: 52ch;
+  padding: 1em;
+  line-height: 1.5;
+  float: center;
+    
+}
+h2 {
+    float: center;
+}
+
+a {
+  display: inline-block;
+  padding: 1em 3.5em;
+  border-radius: 0.3em;
+  background-color: var(--color);
+  color: white;
+  font-size: 0.875rem;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+h3 {
+  margin-top: 1em;
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+
+.card {
+  display: flex;
+  max-width: 320px;
+  flex-direction: column;
+  align-items: center;
+
+  padding-bottom: 1rem;
+  border-radius: 0.5em;
+
+  background-color: white;
+  box-shadow: 0 29px 38px -15px rgb(0 0 0 / 43%);
+}
+
+.card-img {
+  width: 100%;
+  height: 200px;
+  border-radius: 0.3em;
+  background-position: center;
+  background-size: cover;
+}
+
+.card:nth-of-type(1) .card-img {
+  background-image: url(michelin%20food.webp);
+}
+
+.card:nth-of-type(2) .card-img {
+  background-image: url(events.png);
+}
+
+.card:nth-of-type(3) .card-img {
+  background-image: url(chef.jpg);
+}
+
+.background{
+    font-family: cursive;
+}
+.overview{
+    font-family: monospace;
+    font-size: 24px;
+}
+.founders{
+    font-family: monospace;
+  font-size: 24px;
+}
+.philosophy{
+    font-family: monospace;
+    font-size: 24px;
+}
+.ambiance{
+    font-family: monospace;
+    font-size: 24px;
+}
+.accolades{
+    font-family: monospace;
+    font-size: 24px;
+}
+.legacy{
+    font-family: monospace;
+    font-size: 24px;
+}
+.contact{
+    font-family: monospace;
+    font-size: 24px;
+}
+.article13{
+    font-family: fantasy;
+    font-size: 20px;
+}
+.article1{
+    font-family: serif;
+      font-size: 20px;
+}
+.article2{
+    font-family: serif;
+      font-size: 20px;
+}
+.article3{
+    font-family: serif;
+      font-size: 20px;
+}
+.article4{
+    font-family: serif;
+      font-size: 20px;
+}
+.article5{
+ font-family: serif;
+      font-size: 20px;
+}
+.article6{
+    font-family: serif;
+      font-size: 20px;
+}
+.article7{
+    font-family: serif;
+      font-size: 20px;
+}
+.article8{
+    font-family: serif;
+      font-size: 20px;
+}
+.article9{
+    font-family: serif;
+      font-size: 20px;
+}
+.article10{
+    font-family: serif;
+      font-size: 20px;
+}
+.article11{
+    font-family: cursive;
+      font-size: 20px;
+}
+    
+.article12{
+    font-family: fantasy;
+      font-size: 20px;
+}
+.article14{
+    font-family: serif;
+      font-size: 20px;
+} 
+.events1{
+    font-family: cursive
+}
+.events2{
+    font-family: serif;
+    color: black;
+    text-shadow: 1px 1px #FF1493;
+}  
+.events4{
+    font-family: serif;
+    color: black;
+    text-shadow: 1px 1px #FF1493;
+}
+.events6{
+    font-family: serif;
+    color: black;
+    text-shadow: 1px 1px #FF1493;
+}
+.events8{
+    font-family: serif;
+    color: black;
+    text-shadow: 1px 1px #FF1493;
+}
+.events10{
+    font-family: serif;
+    color: black;
+    text-shadow: 1px 1px #FF1493;
+}
+.events12{
+    font-family: serif;
+    color: black;
+    text-shadow: 1px 1px #FF1493;
+}
+.events14{
+    font-family: serif;
+    color: black;
+    text-shadow: 1px 1px #FF1493;
+}
+.events3{
+    
+    font-family: monospace;
+    border-bottom: dashed;
+}
+.events5{
+    font-family: monospace;
+    border-bottom: dashed;
+}
+.events7{
+    font-family: monospace;
+    border-bottom: dashed;
+}
+.events9{
+    font-family: monospace;
+    border-bottom: dashed;
+}
+.events11{
+    font-family: monospace;
+    border-bottom: dashed;
+}
+.events13{
+    font-family: monospace;
+    border-bottom: dashed;
+}
+.events15{
+    font-family: monospace;
+} 
+.img-shadow-1
+{
+box-shadow: 0 28px 16px -26px black;
+box-shadow: 0 28px 16px -26px black;
+box-shadow: 0 28px 16px -26px black;
+width: 50%;
+margin-left: 25%
+}
+
+.img-shadow-1:hover
+{
+transform:scale(1.1);
+transform:scale(1.1);
+transform:scale(1.1);
+transform:scale(1.1);
+transform:scale(1.1);
+
+box-shadow: 0 58px 36px -56px black;
+box-shadow: 0 58px 36px -56px black;
+box-shadow: 0 58px 36px -56px black;
+}
+
+.img-shadow-1
+{
+transition:all .6s ease-in-out;
+transition:all .6s ease-in-out;
+transition:all .6s ease-in-out;
+transition:all .6s ease-in-out;
+transition:all .6s ease-in-out;
+}
+
+.img-shadow-1:hover
+{
+transition:all .6s ease-in-out;
+transition:all .6s ease-in-out;
+transition:all .6s ease-in-out;
+transition:all .6s ease-in-out;
+transition:all .6s ease-in-out;
+}
+
+
+
+.img-button-hover .layer {position:absolute;top:0px;right:0px;bottom:0px;left:0px;text-align:center}
+
+.img-button-hover:hover a {opacity:0.7}
+
+.img-button-hover a {display:inline-block;width:100px;height:100px;margin-top:12%;margin-left:2px;margin-right:2px;background:#e71a6e;color:#fff;font-weight:bold;opacity:0;padding-top:38px;
+border-radius:50px;-webkit-border-radius:50px;border-radius:50px;border-radius:50px;
+box-shadow:0px 2px 3px rgba(0, 0, 0, 0.3);box-shadow:0px 2px 3px rgba(0, 0, 0, 0.3);box-shadow:0px 2px 3px rgba(0, 0, 0, 0.3)}
+.img-button-hover a:hover {background:#f14d90}
+
+.img-button-hover a
+{
+transition:all .4s ease-in-out;
+transition:all .4s ease-in-out;
+transition:all .4s ease-in-out;
+transition:all .4s ease-in-out;
+transition:all .4s ease-in-out;
+}
+
+.img-button-hover:hover a
+{
+transition:all .2s ease-in-out;
+transition:all .2s ease-in-out;
+transition:all .2s ease-in-out;
+transition:all .2s ease-in-out;
+transition:all .2s ease-in-out;
+}
+
+
+
+.button-effect-2.img-button-hover a {margin-top:0px}
+.button-effect-2.img-button-hover:hover a {margin-top:12%}
+
+
+
+.button-effect-3.img-button-hover a {width:100%;height:100%;margin-top:0px}
+.button-effect-3.img-button-hover:hover a {margin-top:12%;width:100px;height:100px;-moz-border-radius:50px;-webkit-border-radius:50px;-o-border-radius:50px;border-radius:50px}
+
+
+
+.button-effect-4.img-button-hover a {margin-top:0px}
+.button-effect-4.img-button-hover:hover a {margin-top:12%}
+
+.button-effect-4.img-button-hover:hover a:hover {width:100%;margin-left:0px;margin-right:0px;-moz-border-radius:0px;-webkit-border-radius:0px;-o-border-radius:0px;border-radius:0px}
+
+.top1{
+    font-family: serif
+}
+.top2{
+    font-family: serif
+}
+.top3{
+    font-family: serif
+}
+.top4{
+    font-family: serif
+}
+.top5{
+    font-family: serif
+}
+.top6{
+    font-family:serif
+}
+.describ{
+    font-family: serif
+}
+.chef{
+    font-family:cursive;
+    text-shadow: 1px 1px #000080;
+    
+}
+.style{
+    color: white;
+    font-family:monospace;
+    text-shadow: 2px 2px #000000;
+
+}
+.dish{
+    width: 500px;
+    margin: auto
+    font-family: serif;
+    color: white;
+    text-shadow: 2px 2px #000000;
+    
+}
+.color {
+  background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
+}
